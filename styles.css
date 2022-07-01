@@ -1,0 +1,120 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+*/
+
+@import url(font-family: 'Trispace',
+ sans-serif);
+body {
+    margin: 0px;
+    text-align: center;
+    background-size: cover;
+}
+
+.header {
+    background-image: url("images/leabnonf.jpg");
+    border: 1px solid white;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    background-color: #457B9D;
+    margin-right: auto;
+    margin-left: auto;
+    width: 200px;
+    margin-bottom: 2px;
+}
+
+h1:hover {
+    background-color: yellow;
+}
+
+h2 {
+    background-color: #1D3557;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.active {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+#a {
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+#b {
+    border-radius: 50%;
+    width: 150px;
+    height: 100px;
+}
+
+#c {
+    border-radius: 50%;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    background-size: cover;
+}
+
+.card1 {
+    display: block;
+    border: 1px solid white;
+    margin-right: 3px;
+}
+
+.card2 {
+    display: block;
+    border: 1px solid white;
+    margin-right: 3px;
+}
+
+.card3 {
+    display: block;
+    border: 1px solid white;
+    margin-right: 3px;
+}
+
+img {
+    width: 150px;
+}
+
+h2:hover {
+    background-color: red;
+}
+
+.guide {
+    text-align: center;
+    display: flex;
+    background-color: lightseagreen;
+    border: 1px solid rgb(221, 215, 215);
+    border-radius: 4px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 430px;
+}
+
+.pho {
+    margin: 10px;
+    border-radius: 7px;
+}
+
+.ident {
+    display: block;
+}
